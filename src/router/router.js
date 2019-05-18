@@ -13,6 +13,7 @@ const router = createRouter(
     { name: "test", path: "/home/:id" },
     { name: "about", path: "/about" },
     { name: "counter", path: "/counter" },
+    { name: "form", path: "/form" },
     { name: "notfound", path: "/404" }
   ],
   { defaultRoute: "notfound" }

@@ -21,8 +21,8 @@
 <a href="#/home">Home</a>
 <a href="#/about">About</a>
 <a href="#/counter">Counter</a>
+<a href="#/form">Form</a>
 
 <h3>{$counter}</h3>
 
 <svelte:component this={$component$} match={$route$} />
-<h1>{$route$.path}</h1>
